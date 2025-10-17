@@ -12,7 +12,7 @@ def run_naive_bayes(
     min_dfs=[0.0, 2, 4],
     alpha_values=[0.01, 0.1, 0.3, 0.5, 1],
     cv_folds_list=[4, 6, 10],
-    use_tfidf=True,
+    use_tfidf=False,
     feature_selection=True,
     k_features=3000,
     random_state=42,
